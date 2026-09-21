@@ -1,0 +1,52 @@
+img {
+    border: 2px solid black;
+
+    padding: 10px;
+
+    margin: 20px;
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+div {
+    position: relative;
+    display: inline-block;     
+    background-color: #e8eefc;
+}
+
+img {
+    display: block;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.words {
+    font-family: impact;
+    font-size: 60px;
+}
+
+.first {
+    position: absolute;
+    line-height: 1;
+    top: 30%;
+    left: calc(50% - 32px);
+}
+
+.heart {
+    color: red;
+    font-size: 80px;
+    position: absolute;
+    line-height: 1;
+    top: calc(30% - 10px);
+    left: calc(50% - 12px);
+}
+
+.last {
+    position: absolute;
+    line-height: 1;
+    top: calc(30% + 60px);
+    left: 50%;
+    transform: translateX(-50%); 
+}
